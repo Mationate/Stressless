@@ -10,7 +10,6 @@ import android.widget.CheckBox;
 import android.widget.CompoundButton;
 import android.widget.TextView;
 
-import com.mationate.stressless.PendingClickListener;
 import com.mationate.stressless.R;
 import com.mationate.stressless.data.Queries;
 import com.mationate.stressless.models.Pending;

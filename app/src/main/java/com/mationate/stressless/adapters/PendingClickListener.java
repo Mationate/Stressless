@@ -1,4 +1,4 @@
-package com.mationate.stressless;
+package com.mationate.stressless.adapters;
 
 public interface PendingClickListener {
 

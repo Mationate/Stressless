@@ -1,4 +1,4 @@
-package com.mationate.stressless;
+package com.mationate.stressless.views.main;
 
 import android.app.Dialog;
 import android.os.Bundle;
@@ -6,14 +6,15 @@ import android.support.design.widget.FloatingActionButton;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.util.Log;
-import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
 import android.widget.EditText;
 import android.widget.ImageButton;
 
+import com.mationate.stressless.R;
 import com.mationate.stressless.models.Pending;
 
 public class MainActivity extends AppCompatActivity {

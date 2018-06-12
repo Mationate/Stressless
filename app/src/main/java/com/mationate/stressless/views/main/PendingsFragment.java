@@ -1,9 +1,9 @@
-package com.mationate.stressless;
+package com.mationate.stressless.views.main;
 
+import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
-import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.util.Log;
@@ -12,6 +12,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Toast;
 
+import com.mationate.stressless.R;
+import com.mationate.stressless.adapters.PendingClickListener;
 import com.mationate.stressless.adapters.PendingsAdapter;
 import com.mationate.stressless.models.Pending;
 
